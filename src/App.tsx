@@ -5,11 +5,13 @@ import TodoPage from './pages/TodoPage';
 import CalculatorPage from './pages/CalculatorPage';
 import GamePage from './pages/GamePage';
 import ContactPage from './pages/ContactPage';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <Router>
       <div>
+      <Navbar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/todo" element={<TodoPage />} />
