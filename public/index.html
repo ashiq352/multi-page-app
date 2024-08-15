@@ -42,12 +42,14 @@
       }
   
       const scriptElement = d.createElement("script");
+      console.log('scriptElement created')
 
       scriptElement.async = true;
  
       scriptElement.crossOrigin = "anonymous";
  
       scriptElement.src = "https://dev-api.mandera.io/index.js";
+      console.log('scriptElement is:', scriptElement)
  
   
       const firstScriptTag = d.getElementsByTagName(tagName)[0];
