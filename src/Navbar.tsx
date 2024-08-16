@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
     <nav style={styles.navbar}>
       <ul style={styles.navList}>
         <li style={styles.navItem}>
-          <Link to="/" style={styles.navLink}>Home</Link>
+          <Link to="/home" style={styles.navLink}>Home</Link>
         </li>
         <li style={styles.navItem}>
           <Link to="/todo" style={styles.navLink}>To-Do App</Link>
