@@ -11,6 +11,7 @@ const LandingPage: React.FC = () => {
           <li><Link to="/calculator">Calculator</Link></li>
           <li><Link to="/game">Jig-Jag Jo Game</Link></li>
           <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/stripe-checkout">Stripe Checkout Page</Link></li>
         </ul>
       </nav>
     </div>

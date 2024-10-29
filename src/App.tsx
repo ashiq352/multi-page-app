@@ -11,6 +11,7 @@ import CalculatorPage from "./pages/CalculatorPage";
 import GamePage from "./pages/GamePage";
 import ContactPage from "./pages/ContactPage";
 import Navbar from "./Navbar";
+import StripeCheckout from "./pages/StripeCheckout";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/calculator" element={<CalculatorPage />} />
           <Route path="/game" element={<GamePage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/stripe-checkout" element={<StripeCheckout />} />
         </Routes>
       </div>
     </Router>
